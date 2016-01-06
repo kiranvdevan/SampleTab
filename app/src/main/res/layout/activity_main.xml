@@ -21,6 +21,11 @@
 
     </android.support.design.widget.AppBarLayout>
 
+    <com.kiranpv.sampletab.custom.CustomViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tabs"
@@ -29,7 +34,8 @@
         app:tabMode="fixed"
         app:tabGravity="fill"
         android:scrollbarAlwaysDrawHorizontalTrack="false"
-        android:background="@android:color/background_dark"
+        android:background="@android:color/darker_gray"
         android:layout_gravity="bottom" />
+
 
 </android.support.design.widget.CoordinatorLayout>

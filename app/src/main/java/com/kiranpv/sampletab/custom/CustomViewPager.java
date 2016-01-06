@@ -10,6 +10,7 @@ import android.view.MotionEvent;
  * Description:
  *  # Making a CustomViewPager so as to modify the swipe feature
  *      (paging) of the view pager according to the requirements.
+ *      --reference: https://www.shiftedup.com/2011/08/29/disabling-pagingswiping-on-android
  */
 public class CustomViewPager extends ViewPager {
 
